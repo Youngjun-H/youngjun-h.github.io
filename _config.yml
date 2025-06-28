@@ -1,0 +1,56 @@
+# _config.yml
+
+# ------------------------------------------------------------
+# 기본 정보 (필수)
+# ------------------------------------------------------------
+title: "황영준의 기술 블로그"                 # 블로그 제목
+description: "끝까지 하다 보면 나도 잘 할 수 있겠지!" # 블로그 설명 (검색엔진에 표시됨)
+url: "https://youngjun-h.github.io"         # 최종적으로 서비스될 블로그 주소
+
+# ------------------------------------------------------------
+# 빌드 설정
+# ------------------------------------------------------------
+# Minimal Mistakes 테마를 사용하도록 지정
+theme: minimal-mistakes-jekyll
+
+# 페이지네이션 설정
+paginate: 5 # 한 페이지에 보여줄 포스트 수
+paginate_path: /page:num/
+
+# 사용할 Jekyll 플러그인 목록
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# ------------------------------------------------------------
+# 작성자 정보 (왼쪽 사이드바에 표시됨)
+# ------------------------------------------------------------
+author:
+  name: "황영준 (Youngjun Hwang)"
+  avatar: "/assets/images/bio-photo.jpg" # 자신의 프로필 사진 (assets/images/ 폴더에 넣으세요)
+  bio: "주니어 개발자의 좌충우돌 성장기"
+  location: "Seoul, South Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your-email@example.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/youngjun-h"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://linkedin.com/in/..."
+
+# ------------------------------------------------------------
+# 푸터(Footer) 설정
+# ------------------------------------------------------------
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/youngjun-h"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/..."
